@@ -35,9 +35,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 body{
 	width:100%;
+	font-family: 'Lato', sans-serif;
+	color:#838386;
+	background-color: #f5f5f5;
 }
 li {
     display: inline;
@@ -46,15 +48,39 @@ a{
 	color:#fff;
 	text-decoration:none;
 }
+.button{
+	font-weight: 500;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	border-radius:35px;
+	padding: 14px 38px;
+}
+a:hover{
+	color:#fff;
+	text-decoration:none;	
+}
+h1{
+	font-size: 40px;	
+}
+h3{
+	font-size: 34px;
+}
+h3,h1{
+	line-height: 1.43478;
+	font-weight: 700;
+	color: #25252c;
+	letter-spacing: .02em;	
+}
 /*header*/
 .header-links{
 	background-color:#005675;	
 }
-li{
+.header-links li{
 	height:34px;
+	padding:0 6px;
 }
 header{
-	background-color: #006991;	
+	background-color: #ccc;	
 }
 .help-top{
 	color:#fff;	
@@ -104,15 +130,107 @@ footer p {
 /*end-footer*/
 
 /*index*/
+.what-we-do{
+	text-align:center;
+	padding:30px;	
+}
 .what-we-do h1{
 	color: #444444;
 	font-size:48px;
 	font-weight:800;
 	line-height:64px;
 	margin-bottom:20px;
-	text-align:center;
 	font-family: sans-serif;
 	margin-top: 30px;
 }
-
+.pretext{
+	margin: 0 auto 72px;
+	max-width: 540px;
+	padding-bottom: 28px;
+	position: relative;	
+}
+.pretext::after{
+	content:"";
+	bottom:0;
+	border-top: 4px solid #444;
+	width:100%;
+	max-width:157px;
+	position:absolute;
+	left:50%;
+	margin-left: -78px;
+}
+.img-we-do{
+	margin-bottom: 28px;
+}
+.img-we-do i{
+	width: 146px;
+	height: 146px;
+	border: 2px solid #9ad905;
+	border-radius: 50%;
+	font-size: 80px;
+	padding: 36px;
+	height: auto;
+	vertical-align: middle;
+}
+h4.item-title{
+	font-size:18px;
+	font-weight:bold;
+	margin-bottom:10px;
+	text-transform:uppercase;
+}
+.into-we-do p{
+	padding-bottom:20px;		
+}
+.projekct-items{
+	margin-bottom:35px;	
+}
+.item_img a{
+	position:relative;
+	display:inline-block;
+	max-width:100%;
+	overflow:hidden;	
+}
+.video-survey{
+	background:#f4f4f4;
+	border-top: 1px solid #dfdfdf;
+	padding-top: 74px;
+	padding-bottom: 24px;
+}
 /*end-index*/
+
+/*contact*/
+.contact{
+	padding:100px 0;	
+}
+.divider{
+	background:#006991;
+	display:inline-block;
+	height:3px;
+	max-width:100px;
+	width:100%;
+}
+form {
+    padding-top: 40px;
+}
+.form-control, .form-control:hover{
+	background-color: #f2f3f9;
+	border: 0px solid #f2f3f9;
+	border-radius: 35px;
+	line-height: 24px;
+	color: #25252c;	
+	min-height: 60px;
+	padding: 18px 25px;
+	font-weight: 300;
+}
+/*end-contact*/
+
+/*O zakladzie*/
+.box-single-all, .box-sidebar{
+	padding:20px;
+	border-radius:20px;
+	background:#fff;
+	margin-bottom:20px;		
+}
+
+
+/*end-O-zakladzie*/
