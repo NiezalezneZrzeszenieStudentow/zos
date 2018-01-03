@@ -1,0 +1,1 @@
+<?php if( function_exists('cyclone_slider') ) cyclone_slider('main-slider'); ?>
