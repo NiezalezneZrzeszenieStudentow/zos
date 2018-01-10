@@ -13,7 +13,7 @@
                 <form action="mail.php" method="post">
                 	<div class="form-group">
                         <label for="exampleInputPassword1">Imię</label>
-                        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Imię">
+                        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Wprowadź imię">
                       </div>
                       <div class="form-group">
                         <label for="exampleInputEmail1">Email</label>
@@ -30,7 +30,30 @@
                 </form>
             </div>
             <div class="col-md-4">
-            
+            	<div class="contact">
+                	
+                	<div class="contact-box">
+                    	<address>
+                    	<h4>Adres</h4>
+                        <p>ul. Piotrowo 3</p>
+                        <p>60-965 Poznań</p>
+                        </address>
+                    </div>
+                    <div class="contact-box">
+                    	<address>
+                    	<h4>Telefon</h4>
+                        <p>61 665 28 51</p>
+                        <p>61 665 28 50</p>
+                        </address>
+                    </div>
+                    <div class="contact-box">
+                    	<address>
+                    	<h4>E-mail</h4>
+                        <p>pawel.twardowski@put.poznan.pl</p>
+                        
+                        </address>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

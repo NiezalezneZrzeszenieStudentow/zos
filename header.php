@@ -14,45 +14,56 @@
 <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
 </head>
 <body>
-<div class="header-links">
+<div class="site-header-links">
 	<div class="container">
-    	<div class="row">
-        	<div class="col-md-7">
-            
-            </div>
-            <div class="col-md-5">
-                	
-            	<ul class="help-top">
-                	<a href=""><li>ekonto</li></a>
-               		<a href=""><li>Wydziały</li></a>
-                	<a href=""><li><img src="img/flags-mini/pl.png" width="25" height="15" alt="Polski"></li></a>
-                    <a href=""><li><img src="img/flags-mini/gb.png" width="25" height="15" alt="Angielski"></li></a>
-                    <a href=""><li><i class="fa fa-sign-in" aria-hidden="true"></i>
-Zaloguj się</li></a>
-					<a href=""><li><i class="fa fa-search" aria-hidden="true"></i></li></a>
-                </ul>
-            </div>
+    		<ul class="fast-urls">
+                	<li><a href="https://elogin.put.poznan.pl/">ekonto</a></li>
+                    <li><a href="http://library.put.poznan.pl/pl">Biblioteka</a></li>
+               		<li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Wydziały</a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">Budowy Maszyn i Zarządzania</a>
+                        </div>
+                      </li>
+
+                    <li><a href=""><i class="fa fa-sign-in" aria-hidden="true"></i>
+Zaloguj się</a></li>
+					<li><a href=""><i class="fa fa-search" aria-hidden="true"></i></a></li>
+             </ul>
+             <ul class="language">
+             	<li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Języki</a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">Budowy Maszyn i Zarządzania</a>
+                        </div>
+                      </li>
+             
+             
+             	<li><a class="language-link" href="/en" xml:lang="en">
+                		
+                    </a>
+                </li>
+             </ul>
         </div>
     </div>
 </div>
 <header>
-	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
-      <a class="navbar-brand" href="index.php">Zakład Obróbki Skrawaniem</a>
+	<nav class="navbar navbar-expand-md bg-white">
+      <a class="navbar-brand" href="index.php"><img src="img/d.jpg" width="118" height="114" alt="logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
-        
-        <li class="nav-item dropdown active">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">O zakładzie</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="witamy.php">Witamy</a>
-              <a class="dropdown-item" href="historia.php">Historia</a>
-              <a class="dropdown-item" href="struktura.php">Struktura</a>
-              <a class="dropdown-item" href="kadra.php">Kadra</a>
-            </div>
-          </li>
+        	<li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">O zakładzie</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="witamy.php">Witamy</a>
+                  <a class="dropdown-item" href="historia.php">Historia</a>
+                  <a class="dropdown-item" href="struktura.php">Struktura</a>
+                  <a class="dropdown-item" href="kadra.php">Kadra</a>
+                </div>
+          	</li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Badania naukowe</a>
             <div class="dropdown-menu">
@@ -65,7 +76,7 @@ Zaloguj się</li></a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="kontakt.php">Rekrutacja</a>
+            <a class="nav-link" href="rekrutacja.php">Rekrutacja</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="kontakt.php">Kontakt</a>

@@ -1,5 +1,5 @@
 ﻿<?php include('header.php'); ?>
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<!--<div id="myCarousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -45,9 +45,23 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
+</div>-->
+<section class="who-we-are">
+	<div class="container">
+    	<div class="row">
+        	<div class="col-md-6">
+            	<small>Kim jesteśmy?</small>
+                <h2>Sci-Tech Inc is the leading provider of scientific products and services.</h2>
+                <p>Our scientific company is glad to offer you a wide variety of high-quality scientific services including supply of any necessary chemicals and lab equipment. We also provide a variety of scientific programs based on four criteria: positive ecological impact, product performance, client service, and value.</p>
+            </div>
+            <div class="col-md-6">
+            	<div class="img-wrapper">
+                	<img src="img/badania-laboratoryjne-badania-krwi-kamien-pomorski.jpg">
+                </div>
+            </div>
+        </div>
     </div>
-    
-    
+</section>
 <section class="what-we-do">
 	<div class="container">
         <h1>Co robimy?</h1>
