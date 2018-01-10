@@ -34,15 +34,10 @@ Zaloguj się</a></li>
              	<li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Języki</a>
                         <div class="dropdown-menu">
-                          <a class="dropdown-item" href="#">Budowy Maszyn i Zarządzania</a>
+                          <a class="dropdown-item language-link" href="#" href="/en" xml:lang="en"><img class="language-icon" src="img/flags-mini/gb.png" alt="English" title="English"></a>
+                          <a class="dropdown-item language-link" href="#" href="/pl" xml:lang="pl"><img class="language-icon" src="img/flags-mini/pl.png" alt="Polski" title="Polski"></a>
                         </div>
                       </li>
-             
-             
-             	<li><a class="language-link" href="/en" xml:lang="en">
-                		
-                    </a>
-                </li>
              </ul>
         </div>
     </div>
@@ -62,6 +57,7 @@ Zaloguj się</a></li>
                   <a class="dropdown-item" href="historia.php">Historia</a>
                   <a class="dropdown-item" href="struktura.php">Struktura</a>
                   <a class="dropdown-item" href="kadra.php">Kadra</a>
+                  <a class="dropdown-item" href="zzyciazakladu.php">Z życia zakładu</a>
                 </div>
           	</li>
           <li class="nav-item dropdown">
@@ -74,6 +70,9 @@ Zaloguj się</a></li>
               <a class="dropdown-item" href="doktoraty.php">Doktoraty</a>
               <a class="dropdown-item" href="oferty_badawcze.php">Oferty badawcze</a>
             </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="materialy.php">Materiały</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="rekrutacja.php">Rekrutacja</a>

@@ -1,17 +1,14 @@
 ﻿<?php include('header.php'); ?>
 
+<div class="top-img">
+	<img src="img/download.jpg" alt="Pobieranie">
+</div>
+
+
 <div class="container">
 	<div class="row">
     	<div class="col-md-8">
-        	<div class="bradcrumbs"> 
-                <nav aria-label="breadcrumb">
-                  <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Library</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Data</li>
-                  </ol>
-                </nav>
-            </div>
+        	
             
             	<h1>Kadra</h1>
                 <hr class="divider">

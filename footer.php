@@ -5,15 +5,15 @@
         	<div class="col-md-4">
             	<h5>O nas</h5>
             	<p>Eventually, by 2011 our small news startup have grown into a full-blown news agency, employing over 56 writers, journalists, editors and investigators, with our coverage spanning from such topics as the politics, sports, and entertainment all the way to health, science, and technologies.</p>
-                <img src="img/d.jpg" alt="Logo ZOS">
-                <img src="img/PP-PUT_logo_pelne-1.png" alt="Logo PP">
+                <a href="/"><img src="img/d.jpg" alt="Logo ZOS"></a>
+                <a href="https://www4.put.poznan.pl/"><img src="img/PP-PUT_logo_pelne-1.png" alt="Logo PP"></a>
             </div>
             <div class="col-md-4">
             	<h5>Kontakt</h5>
                 <div class="phone">
                     <i class="fa fa-phone" aria-hidden="true"></i><p class="words">Numer telefonu</p> 
-                    <p>tel. +48 61 665 28 51</p> 
-                    <p>+48 61 665 28 50</p>
+                    <p>61 665 28 51</p> 
+                    <p>61 665 28 50</p>
                 </div>
                 <div class="place">
                     <i class="fa fa-globe" aria-hidden="true"></i><p class="words">Adres</p> 
