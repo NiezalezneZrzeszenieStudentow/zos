@@ -1,18 +1,12 @@
 ﻿<?php include('header.php'); ?>
 
 <div class="top-img">
-	<img src="img/download.jpg" alt="Pobieranie">
+	<img src="img/download.jpg" alt="Pobieranie" class="img-box">
+    <div class="words-box">Kadra</div>
 </div>
-
-
-<div class="container">
+<div class="container box-all-margin">
 	<div class="row">
     	<div class="col-md-8">
-        	
-            
-            	<h1>Kadra</h1>
-                <hr class="divider">
-           	
             <div class="box-single-all">
             	<div class="container">
                 	<div class="row">

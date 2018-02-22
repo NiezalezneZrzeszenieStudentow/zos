@@ -11,17 +11,17 @@
             <div class="col-md-4">
             	<h5>Kontakt</h5>
                 <div class="phone">
-                    <i class="fa fa-phone" aria-hidden="true"></i><p class="words">Numer telefonu</p> 
+                    <p class="words">Numer telefonu</p> 
                     <p>61 665 28 51</p> 
                     <p>61 665 28 50</p>
                 </div>
                 <div class="place">
-                    <i class="fa fa-globe" aria-hidden="true"></i><p class="words">Adres</p> 
+                    <p class="words">Adres</p> 
                     <p>ul. Piotrowo 3</p>
                     <p>60-965 Poznań</p>
                 </div>
                 <div class="email">
-                    <i class="fa fa-envelope" aria-hidden="true"></i><p class="words">E-mail</p>
+                    <p class="words">E-mail</p>
                     <p>pawel.twardowski@put.poznan.pl</p
                 ></div>
             </div>
@@ -40,7 +40,7 @@
 </footer>
 <section class="footer-bottom">
 	<div class="container">
-    	<span><?php echo date('Y'); ?> &copy <a href="/">Zakład obróbki Skrawaniem</a> | Wykonanie: <a href="">Karol Znojkiewicz</a></span>
+    	<span><?php echo date('Y'); ?> &copy <a href="/">Zakład Obróbki Skrawaniem</a> | Wykonanie: <a href="">Karol Znojkiewicz</a></span>
     </div>
 </section>
 

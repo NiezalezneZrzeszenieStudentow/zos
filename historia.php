@@ -1,20 +1,11 @@
 ﻿<?php include('header.php'); ?>
-
-<div class="container">
+<div class="top-img">
+	<img src="img/download.jpg" alt="Pobieranie" class="img-box">
+    <div class="words-box">Historia</div>
+</div>
+<div class="container box-all-margin">
 	<div class="row">
     	<div class="col-md-8">
-        	<div class="bradcrumbs"> 
-                <nav aria-label="breadcrumb">
-                  <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Library</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Data</li>
-                  </ol>
-                </nav>
-            </div>
-            
-            <h1>Historia</h1>
-            <hr class="divider">
             
             <div class="box-single-all">
             	<p>Zakład Obróbki Skrawaniem został powołany w Instytucie Technologii Budowy Maszyn zarządzeniem rektora Politechniki Poznańskiej z dnia 9 stycznia 1981 roku. W skład Zakładu wyłonionego z Zakładu Technologii Budowy Maszyn, kierowanego przez ówczesnego docenta K. Wieczorowskiego, weszły zespoły dydaktyczno-badawcze, zajmujące się problematyką podstaw skrawania, narzędzi skrawających i technologią łożysk tocznych, skupione wówczas wokół dr hab. inż. M. Kawalca, dr inż. A. Dopierały i doc. dr hab. inż. Z. Weiss. Zakład kontynuuje niektóre kierunki badawcze dawnej Katedry Obróbki Skrawaniem (kierowanej przez prof. B. Kiepuszewskiego) przekształconej w 1970 r. - w wyniku zmiany struktury organizacyjnej Uczelni – w Zakład Technologii Budowy Maszyn.</p>
